@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background: black;
+}
+.write a{
+    color: #FFFFFF;
+
+}
+.nav-item1 {
+    position: absolute;
+    width: 92px;
+    height: 22px;
+    left: 249px;
+    top: 63px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+}
+.nav-item2 {
+
+    position: absolute;
+    width: 85px;
+    height: 22px;
+    left: 394px;
+    top: 63px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+}
+.nav-item3 {
+    position: absolute;
+    width: 91px;
+    height: 22px;
+    left: 514px;
+    top: 63px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+
+
+
+}
+
+.price1 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 427px;
+    height: 80px;
+    left: 894px;
+    z-index: 1;
+    top: 213px;
+
+    background: rgba(255, 255, 255, 0.26);
+    border: 2px solid #CCAA90;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.26), -10px -10px 24px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+}
+.price2 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 427px;
+    height: 80px;
+    left: 894px;
+    top: 329px;
+
+    background: rgba(255, 255, 255, 0.26);
+    border: 2px solid #CCAA90;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.26), -10px -10px 24px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+}
+.price3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 427px;
+    height: 80px;
+    left: 894px;
+    top: 445px;
+    margin-top: 20px;
+
+    background: rgba(255, 255, 255, 0.26);
+    border: 2px solid #CCAA90;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.26), -10px -10px 24px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+
+}
+.price4{
+    position: absolute;
+    width: 238px;
+    height: 29px;
+    left: 869px;
+    top: 550px;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.menu1 {
+    position: absolute;
+    width: 407px;
+    height: 56px;
+    left: 904px;
+    top: 88px;
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.menu2 {
+    position: absolute;
+    width: 149px;
+    height: 22px;
+    left: 894px;
+    top: 180px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.menu3 {
+    position: absolute;
+    width: 97px;
+    height: 22px;
+    left: 894px;
+    top: 304px;
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.menu4 {
+    position: absolute;
+    width: 257px;
+    height: 22px;
+    left: 854px;
+    top: 418px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.menu5 {
+    position: absolute;
+    width: 238px;
+    height: 29px;
+    left: 989px;
+    top: 750px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.arrow-write {
+    position: absolute;
+    width: 238px;
+    height: 29px;
+    left: 989px;
+    top: 620px;
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.ellipse1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 68px;
+    top: 225px;
+
+}
+.ellipse2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 258px;
+    top: 225px;
+}
+.ellipse3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 275px;
+    top: 748px;
+}
+.ellipse4 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 366px;
+    top: 748px;
+}
+.ellipse5 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 457px;
+    top: 748px;
+}
+.ellipse6 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 548px;
+    top: 748px;
+}
+.arrow1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30px;
+    height: 0;
+    left: 90px;
+    top: 263px;
+}
+.arrow2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 58px;
+    height: 0;
+    left: 280px;
+    top: 263px;
+}
+
+
+
+
+/*HEADER*/
+
+
+
+.header {
+
+    justify-content: space-between;
+
+}
+/*HEADER*/
+
+.profile {
+    position: absolute;
+    width: 1440px;
+    height: 860px;
+    left: 0;
+    top: -1px;
+
+}
+
+
+.profile2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 561px;
+    height: 768px;
+    left: 827px;
+    top: 33px;
+
+    background: rgba(0, 0, 0, 0.51);
+    border: 1px solid #000000;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/*HEADER*/
+
+
+/*HERO*/
+/*HERO*/
+
